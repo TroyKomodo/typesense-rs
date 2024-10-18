@@ -1,5 +1,8 @@
 # Typesense Rust Library
 
+![Crates.io Version](https://img.shields.io/crates/v/typesense-rs)
+![docs.rs](https://img.shields.io/docsrs/typesense-rs)
+
 You can generate the bindings using the generate script
 
 ```bash
