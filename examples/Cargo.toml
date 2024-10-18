@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-typesense-rs = { version = "27.0.0", path = "../typesense", features = ["bon"] }
+typesense-rs = { version = "*", path = "../typesense", features = ["bon"] }
 
 [[example]]
 name = "bon"

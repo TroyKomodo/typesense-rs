@@ -1,6 +1,7 @@
 #![allow(unused_imports)]
 #![allow(clippy::too_many_arguments)]
 #![allow(clippy::empty_docs)]
+#![allow(unknown_lints)]
 #![allow(clippy::too_long_first_doc_paragraph)]
 
 extern crate serde;

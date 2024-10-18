@@ -1,6 +1,6 @@
 [package]
 name = "typesense-rs"
-version = "0.0.0"
+version = "27.0.0"
 authors = ["Troy Benson <troybensonsa@gmail.com>", "OpenAPI Generator team and contributors"]
 description = "An open source search engine for building delightful search experiences."
 license = "MIT OR Apache-2.0"
