@@ -8,6 +8,8 @@ docker run --rm \
     -i /local/openapi.flattened.yml \
     -g rust \
     -o /local/typesense \
-    --additional-properties="useSingleRequestParameter=true,packageName=typesense,topLevelApiClient=true,useBonBuilder=true,library=reqwest-trait"
+    --additional-properties="useSingleRequestParameter=true,packageName=typesense-rs,topLevelApiClient=true,useBonBuilder=true,library=reqwest-trait"
 
 cargo +nightly fmt
+
+git apply generator.patch

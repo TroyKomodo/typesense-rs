@@ -4,6 +4,8 @@
 #![allow(unknown_lints)]
 #![allow(clippy::too_long_first_doc_paragraph)]
 
+#![doc = include_str!("../README.md")]
+
 extern crate serde;
 extern crate serde_json;
 extern crate serde_repr;
