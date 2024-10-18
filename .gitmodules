@@ -1,0 +1,3 @@
+[submodule "typesense-api-spec"]
+	path = typesense-api-spec
+	url = https://github.com/typesense/typesense-api-spec

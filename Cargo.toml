@@ -1,0 +1,7 @@
+[workspace]
+members = [ 
+    "examples",
+    "typesense"
+]
+
+resolver = "2"

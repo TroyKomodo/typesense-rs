@@ -1,0 +1,11 @@
+[package]
+name = "examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+typesense-rs = { version = "27.0.0", path = "../typesense", features = ["bon"] }
+
+[[example]]
+name = "bon"
+path = "bon.rs"
